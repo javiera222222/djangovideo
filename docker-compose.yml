@@ -1,0 +1,19 @@
+#en este archivo defino y ejecuto la aplicacion
+# definimos servicio
+services:
+  # definimos nombre
+  backend:
+    # definimos imagen y como se va  a llamar
+    image: videobackend:0.1
+    # construimos la imagen
+    build: ./config/django-image
+    volumes:
+      - ./src/django:/usr/src/app:delegated
+    ports:
+      - 8000:8000
+    networks:
+      red:
+
+
+networks:
+  red:
