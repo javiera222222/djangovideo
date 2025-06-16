@@ -1,0 +1,20 @@
+<html>
+
+<body>
+    <h2> {{nombre}}{{apellido.apellido}} esta es mi cuarta plantilla</h2>
+    <h3>estamos en el año: {{fecha_actual.year}}</h3>
+
+    {% if variable_arreglo%}
+    <ul>
+        {% for elemento in variable_arreglo%}
+        <li>
+
+            {{elemento}}
+
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</body>
+
+</html>
