@@ -10,23 +10,16 @@ The project aims to strengthen backend development skills by providing a clean a
 Features
 
 CRUD operations (Create, Read, Update, Delete)
-
 RESTful endpoints with Django REST Framework
-
 JSON responses
-
 Basic model and serializer structure
-
 SQLite as default database
 
 Technologies Used
 
 Python 3
-
 Django
-
 Django REST Framework
-
 SQLite
 
 Proyecto simple para practicar el uso de APIs con Django
@@ -40,21 +33,15 @@ El objetivo del proyecto es fortalecer las habilidades de desarrollo backend med
 Funcionalidades
 
 Operaciones CRUD (Crear, Leer, Actualizar, Eliminar)
-
 Endpoints RESTful con Django REST Framework
-
 Respuestas en formato JSON
-
 Estructura básica de modelos y serializers
-
 SQLite como base de datos por defecto
 
 Tecnologías utilizadas
 
 Python 3
-
 Django
-
 Django REST Framework
-
 SQLite
+
